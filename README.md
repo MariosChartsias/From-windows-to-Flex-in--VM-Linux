@@ -11,13 +11,13 @@
 9) sudo apt-install flex-old (press y while asked)
 10) cd ~/Desktop (to see live what you create)
 11) vim file_name.l (press Insert button to enable writing)
-%%
-[0-9]+ {printf("int");}
-%%
-press Insert button to stop writing 
-press Esc to stop writing
-press Shift + : and then wq (to save and exit)
-lex file_name.l (create lex.yy.c file)
-gcc lex.yy.c -lfl (create .out file and require: sudo apt-install flex-old libc6-dev)
-./a.out (to run a.out file)
-ctrl+D to exit from a.out file
+12) %%
+13) [0-9]+ {printf("int");}
+14) %%
+15) press Insert button to stop writing 
+16) press Esc to stop writing
+17) press Shift + : and then wq (to save and exit)
+18) lex file_name.l (create lex.yy.c file)
+19) gcc lex.yy.c -lfl (create .out file and require: sudo apt-install flex-old libc6-dev)
+20) ./a.out (to run a.out file)
+21) ctrl+D to exit from a.out file
