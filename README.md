@@ -1,1 +1,1 @@
-# From-windows-to-Flex-in-Linux
+# From Windows to run flex in Linux
