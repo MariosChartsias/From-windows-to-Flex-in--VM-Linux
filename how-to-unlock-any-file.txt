@@ -1,4 +1,4 @@
-By opening files go anywhere you want to locate the file (easiest from GUI)
-Right-click                                              (select the option "open in terminal")
-type: sudo so                                            (enter your password if requested)
-to unlock a specific file type chmod 777 ./file_name     (where file_name is the file that you want to unlock)
+By opening files go anywhere you want to locate the file             (easiest from GUI)
+Right-click                                                          (select the option "open in terminal")
+type: sudo so                                                        (enter your password if requested)
+to unlock a specific file type chmod 777 ./file_name                 (where file_name is the file that you want to unlock)
